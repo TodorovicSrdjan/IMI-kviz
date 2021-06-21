@@ -1,0 +1,205 @@
+
+body {
+    background-color: #102533;
+    color: #42678e;
+    font-family: Tahoma, Verdana, sans-serif; /*"Times New Roman", Times, serif*/
+    font-size: 22px;
+    cursor: default;
+}
+
+#container {
+    margin: 40px auto;
+    width: 900px;
+}
+
+/* header */
+#imi-slika {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#header {
+    text-align: center;
+}
+
+#header > h1 {
+    margin: 0;
+    font-size: 300%;
+    letter-spacing: 2.5px;
+    max-width: 100%;
+    max-height: 100%;
+    font-variant: all-small-caps;
+}
+/* KRAJ | header */
+
+
+.disable-select {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+}
+
+.blok {
+    background-color: #cecece;
+    border-radius: 10px;
+    margin: 15px 0;
+    padding: 35px
+}
+
+input, button, select {
+    color:  #42678e;/*#6f9edf;*/
+}
+
+/* glavna strana*/
+
+.blok > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.blok > ul > li {
+    padding: 5px;
+    outline:0;
+}
+
+/* MENI - odabir */
+.blok > ul > li:hover, .blok > ul > li:focus {
+    background-color: #42678e;
+    border-radius: 10px;
+    color: #6f9edf;
+    outline: 1;
+}
+/* KRAJ | MENI - odabir */
+
+
+/* KRAJ | glavna strana*/
+
+/* strana sa pitanjima */
+
+/* tabela */
+table.tableFixHead  {
+    display: block;
+    overflow: scroll;
+    white-space: nowrap;
+    text-align: center;
+    border-collapse: collapse;
+    max-height: 380px;
+    font-size: 14px;
+}
+
+table.tableFixHead thead {
+    color: #6f9edf;
+    position: sticky;
+    top: 0;
+    background-color: #42678e;
+    border: 2px solid black;
+}
+
+table.tableFixHead tbody {
+    white-space: nowrap;
+    overflow: scroll;
+}
+
+table.tableFixHead td, table.tableFixHead th {
+    border: 1px solid black;
+    padding: 5px;
+    
+/*--*/white-space: normal;
+}
+/* KRAJ | tabela */
+
+#dataTable {
+    margin-top: 15px;
+}
+
+#dataTable > p {
+    margin: 20px 0 5px ;
+}
+
+/* KRAJ | strana sa pitanjima */
+
+
+/* igra */
+
+/* controlni div*/
+.itemText {
+    margin: 0;
+    font-size: 150%;
+    letter-spacing: 2.5px;
+    font-variant: all-small-caps;
+    text-align: center;
+}
+
+.itemValue {
+    margin: 0;
+    font-size: 120%;
+    letter-spacing: 2.5px;
+    font-variant: all-small-caps;
+    text-align: center;
+    color: #6f9edf;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* KRAJ | controlni div*/
+
+#content > p {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#content > input[type="text"] {
+    width: 60%;
+    margin: auto;
+    display: block;
+    font-size: 75%;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+.endButton {
+    margin: 10px auto;
+    display: block;
+    width: 160px;
+}
+
+/* KRAJ | igra */
+
+/* Scores */
+
+#scoreBoard {
+    margin: auto;
+    width: 70%;
+    display: table;
+    border-collapse: collapse;
+}
+
+#scoreBoard {
+    margin: 40px auto;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 100%;
+}
+
+#scoreBoard th {
+    color: #6f9edf;
+    background-color: #42678e;
+}
+
+#scoreBoard td, #scoreBoard th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+/* KRAJ | Scores */

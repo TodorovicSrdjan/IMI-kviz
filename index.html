@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="sr">
+    <head>
+        <title>IMI Kviz</title>
+        <meta charset="UTF-8"/>
+        <meta name="keywords" content="Quiz,Kviz,CSV,JSON"/>
+        <meta name="description" content="Kviz web stranica sa podrškom za pitanja u JSON i CSV formatu"/>
+        <meta name="application-name" content="IMI Kviz"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="author" content="Srdjan Todorovic"/>
+        
+        
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="Scripts/menu_script.js"></script>
+        <script type="text/javascript" src="Scripts/data_script.js"></script>
+        <script type="text/javascript" src="Scripts/game_script.js"></script>
+        <script type="text/javascript" src="Scripts/scores_script.js"></script>
+        
+        <script src="Scripts/lib/jquery-3.6.0.min.js"></script>
+        
+        <!-- Skripte za parsiranje i konverziju -->
+        <script src="Scripts/lib/jquery.csv.js"></script>
+        <script src="Scripts/lib/xml2json.js"></script>
+    </head>
+    <body onload="goToMenu();">
+        <div id="container">
+            <div id="header" class="blok header1">
+                <a href="https://imi.pmf.kg.ac.rs/">
+                    <img class="disable-select" src="images/imi-slika.png" id="imi-slika"
+                         alt="Logo instituta za matematiku i informatiku Prirodno-matematičkog fakulteta u Kragujevcu"/>
+                </a>
+                <br/>
+                <h1 class="disable-select">IMI Kviz</h1>
+            </div>
+            <div id="content" class="blok">
+                <!--<ul class="disable-select">
+                    <li tabindex="1">Zapocni novi kviz</li>
+                    <li tabindex="2">Baza pitanja</li>
+                    <li tabindex="3">Prethodni pokusaji</li>
+                </ul>-->
+            </div>
+        </div>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,15 @@
+"Pitanje","Odgovor","Tip","Vrednost"
+"Dogovor između 2 entiteta o načinu komunikacije","protokol","short_ans",1
+"Tip širokopojasne (broadband) mreže koja koristi optička vlakna i koaksijalne kablove?","HFC","short_ans",1
+"Skup slojeva i protokola naziva se:","arhitektura mreze","short_ans",1
+"Računarska mreža nije isto što i distributivni sistem","TRUE","bool",1
+"Jednostavan protokol koji je trebao da donese Web na male uređaje, više se gotovo ni ne koristi:","WAP","short_ans",1
+"IEEE oznaka za WIFI je",802.11,"short_ans",1
+"[...] je metod koji je omogućio stvaranje sistema koji je otporan na uništenje, zamenio je circuit switching metod","packet switching","short_ans",1
+"Šenonovom teoremom se određuje najveća brzina prenosa kroz [...] medijum.","realni","short_ans",1
+"[...] je slabljenje signala i njegovo rasipanje","atenuacija","short_ans",1
+"[...] je uređaj koji pretvara analogni signal u digitalni, i obrnuto","modem","short_ans",1
+"Refrakcija je [...]","prelamanje zraka","short_ans",1
+"Optička vlakna su osetljiva na naponske udare","FALSE","bool",1
+"Za prenos podataka mikrotalasima nije potrebna  optička vidljivost između predajnika.","FALSE","bool",1
+"UTP je akronim za [...]","Unshielded Twisted Pair","short_ans",1
