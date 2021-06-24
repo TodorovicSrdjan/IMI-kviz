@@ -35,7 +35,7 @@ function getCookieValues() {
         var value = cookie.split('=')[1];
         
         if( regex.test(value) )
-            values.push( value );
+            values.push( Number(value) );
     }
     return values;
 }

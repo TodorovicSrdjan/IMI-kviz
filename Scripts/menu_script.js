@@ -145,7 +145,7 @@ function goToScores() {
     var scores = getCookieValues();
     
     if(scores.length > 0) {
-        scores.sort().reverse();
+        scores.sort(function(a, b){return b - a});
 
         var table = document.createElement("table");
         table.id = "scoreBoard";
