@@ -28,21 +28,14 @@ JSON fajl treba sadržati niz objekata:
 
 # Slike
 
-![IMI Kviz: glavni meni][menu]
-
-![IMI Kviz: deo sa pitanjima][questions]
-
-![IMI Kviz: igra][game]
-
-![IMI Kviz: kraj igre][end]
-
-![IMI Kviz: prethodni rezultati][scores]
+<div style="text-align: center">
+  <img src="./documentation/glavni-meni.png" alt="IMI Kviz: glavni meni" width="54%"/>
+  <img src="./documentation/pitanja.png" alt="IMI Kviz: deo sa pitanjima" width="41%"/>
+  <img src="./documentation/igra.png" alt="IMI Kviz: igra" width="45%"/>
+  <img src="./documentation/kraj.png" alt="IMI Kviz: kraj igre" width="50%"/>
+  <img src="./documentation/rezultati.png" alt="IMI Kviz: prethodni rezultati"/>
+</div>
 
 [//]: # ( Reference )
 
 [site]: https://todorovicsrdjan.github.io/IMI-kviz/
-[menu]: ./documentation/glavni-meni.png
-[questions]: ./documentation/pitanja.png
-[game]: ./documentation/igra.png
-[end]: ./documentation/kraj.png
-[scores]: ./documentation/rezultati.png
