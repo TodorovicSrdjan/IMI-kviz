@@ -2,7 +2,7 @@
 
 ## Opšte informacije
 
-**IMI Kviz** je Web aplikacija koja predstavlja kviz čija su pitanja kreirana od strane korisnika. Napravljena je kao seminarski rad iz predmeta "Klijentske Web tehnologije".
+[**IMI Kviz**][site] je Web aplikacija koja predstavlja kviz čija su pitanja kreirana od strane korisnika. Napravljena je kao seminarski rad iz predmeta "Klijentske Web tehnologije".
 
 
 ## Baza pitanja
@@ -40,6 +40,7 @@ JSON fajl treba sadržati niz objekata:
 
 [//]: # ( Reference )
 
+[site]: https://todorovicsrdjan.github.io/IMI-kviz/
 [menu]: ./documentation/glavni-meni.png
 [questions]: ./documentation/pitanja.png
 [game]: ./documentation/igra.png
